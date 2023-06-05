@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="Images/android-chrome-512x512.png" type="image/x-icon">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="l-header">
+        <div>
+            <h3><a class="nav_logo">Jennifer</a></h3>
+        </div>
+        <nav class="nav bg-grid">
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#project" class="nav_link">Project</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="ld"><li><button id="mode-toggle"><span class="dark-mode-icon"></span></button></li></div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle</div>
+        <!--==================== Home ===================-->
+        <section class="home bg-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">Hi,<br>I'am <span class="home_title-color">Jennifer Mantog</span><br>Student</h1>
+                <a class="btn btn-outline-info" href="https://jnnfr-mntg.github.io/With-CSS/" role="View CV">View Cv</a>
+            </div>
+            <div class="home_social">
+                <a href="#" class="home_social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home_social-icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="home_social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+            <div class="home_img">
+                <img src="Images/93371184_1144354715897828_5905822968235163648_n-removebg-preview.png" alt="">
+            </div>
+        </section>
+        <!--================= About ==================-->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container bg-grid">
+                <div class="about_img">
+                    <img src="Images/345297502_1014040889770807_2683244471827864088_n.jpg" alt="">
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I'am Jennifer</h2>
+                    <p class="about_text">Hello there! I'm 22 years old, currently residing in Tagbilaran City, Bohol. I am studying at Bohol Island State University under the College of Technology and Allied Sciences. 
+                        I am pursuing a Bachelor of Science in Computer Science and I am currently a third-year student. As a third-year student, The interest on eager to explore various aspects of computer science, from programming to software development, and contribute to the ever-evolving field. 
+                        Outside of academics, I enjoy engaging in creative projects, and embracing new challenges that come my way. 
+                        I am driven by a genuine curiosity for learning and a desire to make a positive impact in the realm of technology.
+                        I look forward to the exciting opportunities that lie ahead in my journey as a computer science student.</p>
+                </div>
+            </div>
+        </section>
+        <!--=========== Skills =================-->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+
+            <div class="skills_container bg-grid">
+                <div>
+                    <h2 class="skils_subtitle">Skills</h2>
+                    <p class="skills_text">As a student, 
+                        I am constantly engaged in learning and honing the skills that have captured my interest.
+                        I actively seek opportunities to expand my knowledge and improve my abilities in various areas.
+                        Through ongoing practice and exploration,
+                        I am steadily refining my skills and gaining a deeper understanding of the subjects that fascinate me.
+                        I embrace the learning process and remain committed to personal growth,
+                        aiming to become proficient in my chosen fields.
+                        With each new challenge and experience,
+                        I am excited to further develop my skills and unlock my full potential.</p>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-html5 skills_icon"></i>
+                            <span class="skills_name">HTML5</span>
+                        </div>
+                        <div class="skills_bar skills_html"></div>
+                        <div class="skills_percentage">85%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-css3 skills_icon"></i>
+                            <span class="skills_name">CSS</span>
+                        </div>
+                        <div class="skills_bar skills_css"></div>
+                        <div class="skills_percentage">80%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxl-javascript skills_icon"></i>
+                            <span class="skills_name">JavaScript</span>
+                        </div>
+                        <div class="skills_bar skills_js"></div>
+                        <div class="skills_percentage">50%</div>
+                    </div>
+                    <div class="skills_data">
+                        <div class="skills_name">
+                            <i class="bx bxs-paint skills_icon"></i>
+                            <span class="skills_name">Bootstrap</span>
+                        </div>
+                        <div class="skills_bar skills_ux"></div>
+                        <div class="skills_percentage">80%</div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="Images/Free Vector _ Colorful illustration of female programmer working.jpg" class="skills_img" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--============ Project =============-->
+        <section class="project section" id="project">
+            <h2 class="section_title">Project</h2>
+
+            <div class="work_container bg-grid">
+                <div class="work_img">
+                    <img src="Images/CV2.png" alt="">
+                    <p>CV</p>
+                    <a href="https://jnnfr-mntg.github.io/CV/" class="btn btn-primary">Link to GitHub</a>
+                </div>
+                <div class="work_img">
+                    <img src="Images/HTML&CSS.png" alt="">
+                    <p>CV with CSS</p>
+                    <a href="https://jnnfr-mntg.github.io/With-CSS/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Seatwork.png" alt="">
+                    <p>Seatwork</p>
+                    <a href="https://jnnfr-mntg.github.io/Seatwork/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Assignment3.png" alt="">
+                    <p>Assignment 3</p>
+                    <a href="https://jnnfr-mntg.github.io/Assignment-3/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Seatwork-Midterm.png" alt="">
+                    <p>Assignment-3</p>
+                    <a href="https://jnnfr-mntg.github.io/Seatwork-Midterm-/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Assignment4.png" alt="">
+                    <p>Assignment 4</p>
+                    <a href=" https://jnnfr-mntg.github.io/Assignment-4/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Assignment 5.png" alt="">
+                    <p>Assignment 5</p>
+                    <a href="https://jnnfr-mntg.github.io/Assignment/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/AI.png" alt="">
+                    <p>AI</p>
+                    <a href="https://jnnfr-mntg.github.io/Final/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/Coffee-Shop.png" alt="">
+                    <p>Coffee Shop</p>
+                    <a href=" https://jnnfr-mntg.github.io/Coffee-Shop/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+                <div class="work_img">
+                    <img src="Images/LogInForm.png" alt="">
+                    <p>LogIn Form</p>
+                    <a href="https://jnnfr-mntg.github.io/LogInForm/" class="btn btn-primary">Link to GitHub</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!--============= CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+
+            <div class="contact-container">
+                <div class="contact-section">
+                    <form id="contact-form" method="POST">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                      </form>
+                </div>
+            </div>
+        </section>
+
+        <!--================ Footer ================-->
+        <footer class="footer">
+            <p class="footer_title">Jennifer Mantog</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer_icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer_icon"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <p>&copy; June 2023</p>
+        </footer>
+        
+    </main>
+
+    <!-- SCROLL REVAEL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SCRIPT.JS -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
